@@ -1,0 +1,17 @@
+Type,Code,Sub-codes,Description
+Concern,Data Collection,Personal Data,"Personal data including PII (e.g., name, email, phone number, address, etc.), voice data, activity and behavorial data (e.g., search history, location, etc.)."
+,,Proprietary Information,"Sensitive corporate data (e.g., business plans, trade secrets, project details) and intellectual property (e.g., software, ideas, creative works)."
+,Data Usage,Model training,Collection of data for training or improving the model and associated risks including human review and memorization.
+,,Third-party sharing,"Sharing of data with third-parties including affiliates, contractors, data brokers, advertisers, and government authorities."
+,Data Retention,,"Data storage, deletion, and users' right to be forgotten."
+,Security Vulnerabilities,Platform Security,Software bugs and data breaches in AI platforms such as ChatGPT.
+,,AI-enabled Apps,"Security and Privacy of AI-enabled applications (e.g., customer service assistants, Custom GPTs) in response to attacks (e.g., jailbreaks, prompt injections)."
+,,AI-generated Code,Security vulnerabilities in AI-generated code.
+,Legal Compliance,GDPR,"Compliance with GDPR including age restrictions, right to be forgotten, data collection, and opt-out."
+,,HIPAA,Using LLMs with medical or patient data and compliance with HIPAA.
+,Transparency and control,,"Lack of transparency in data controls, dark patterns, and inconsistent, evolving privacy policies."
+,,,
+Attitude,Cautious,,"Aware of privacy risks, have a strong preference for privacy, and implement privacy safeguards (e.g., using local LLMs, scrubbing PII from input prompts)."
+,Inquisitive,,Actively seek to understand the privacy and data management practices of conversational AI platforms.
+,Privacy-dismissive,,"Indifferent to privacy risks, prioritize the benefits of AI platforms, often criticize privacy regulations, and may dismiss others’ S&P concerns."
+,Resigned,,Feel overwhelmed by the pervasive nature of data collection and perceive resistance as futile.

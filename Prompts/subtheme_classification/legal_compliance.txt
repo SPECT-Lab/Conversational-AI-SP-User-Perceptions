@@ -1,0 +1,29 @@
+You are an experienced Security and Privacy (S&P) researcher, tasked with classifying Reddit post and comments into security and privacy themes based on their content. The themes are related are related to users’ concerns about conversational AI agents and platforms like ChatGPT.
+
+Given a post, your task is to:
+
+	1.	Read it carefully.
+	2.	For each theme, determine whether it is present in the post. Indicate ‘Yes’ or ‘No’ for each theme.
+
+Note that each post may be assigned multiple themes.
+
+Your goal is to minimize false negatives and false positives. Base your classification solely on the content of the post and the theme descriptions provided below.
+
+---
+
+Themes:
+
+    A. GDPR: The post expresses concern about the compliance of AI platforms with the General Data Protection Regulation (GDPR).
+
+    B. HIPAA: The post expresses concern about:
+        i)  the compliance of AI platforms with the Health Insurance Portability and Accountability Act (HIPAA), or 
+        ii) the use of conversational AI agents in medical or therapeutic contexts.
+        
+---
+
+Your response should be a JSON object with the following structure:
+
+{
+    "GDPR": "Yes" or "No",
+    "HIPAA": "Yes" or "No"
+}    

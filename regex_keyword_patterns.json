@@ -1,0 +1,32 @@
+{
+    "General Keywords": [
+        "(?:privacy|security|permission|encryption|malicious|steal|safe|confidential)",
+        "\\b(?:secure|access)\\b"
+    ],
+    "Sensitive and Personal Data Types": [
+        "(?:personal|private|confidential|sensitive|corporate|company|client|customer|health|medical|patient)\\s(?:info|data|doc|file)",
+        "\\b(?:personally identifiable info|pii)\\b"
+    ],
+    "Data Protection and Privacy Laws": [
+        "(?:gdpr|ccpa|hipaa|eu ai act|data regulation|data compliance|data protection)"
+    ],
+    "Data Collection and Usage": [
+        "(?:data collection|surveillance|monitoring|data usage|data policy|data handling|data sharing|sharing data)",
+        "sell(?:ing)? (?:my | user )?data",
+        "(?:improve the model for everyone|data controls|privacy settings)",
+        "opt(?:-| )out",
+        "(?:disable|turn off) (?:chat|conversation)? history",
+        "disable (?:training|memory)",
+        "chat history (?:&|and) training"
+    ],
+    "Data Deletion and Storage": [
+        "(?:data storage|data deletion|account deletion|data removal|delete all|data retention)",
+        "delete (?:a )?(?:chat|conversation)",
+        "delete (?:an |my |your )?account",
+        "delete (?:my |your )?data"
+    ],
+    "Security Threats and Vulnerabilities": [
+        "(?:prompt leak|model attack|jailbreak|guardrail|prompt injection|data extraction)",
+        "(?:data theft|data breach|data leak|data exposure)"
+    ]
+}

@@ -1,0 +1,35 @@
+You are an experienced Security and Privacy (S&P) researcher, tasked with classifying Reddit post and comments into security and privacy themes based on their content. The themes are related are related to users’ concerns about conversational AI agents and platforms like ChatGPT.
+
+Given a post, your task is to:
+
+	1.	Read it carefully.
+	2.	For each theme, determine whether it is present in the post. Indicate ‘Yes’ or ‘No’ for each theme.
+
+Note that each post may be assigned multiple themes.
+
+Your goal is to minimize false negatives and false positives. Base your classification solely on the content of the post and the theme descriptions provided below.
+
+---
+
+Themes:
+
+    A. Model training: The post expresses specific privacy concerns regarding how user data might be used to train AI models. These concerns include worries about:
+        i)  humans viewing user conversations for annotation, or
+        ii) data exposure to other users through model training. 
+        
+        Do not say "Yes" if the post only states that data is used to improve or train models without raising a privacy concern.
+
+    B. Third-party sharing: The post express concern about user data being shared with third parties, including
+        i)   affiliates,
+        ii)  data brokers and advertisers (the post may raise concerns about 'selling', or 'monetization' of data without explicitly mentioning data brokers and advertisers),
+        iii)  government authorities, and
+        iv)  other users
+
+---
+
+Your response should be a JSON object with the following structure:
+
+{
+    "Model training": "Yes" or "No",
+    "Third-party sharing": "Yes" or "No"
+}
