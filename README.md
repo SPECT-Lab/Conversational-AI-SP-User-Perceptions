@@ -32,3 +32,7 @@ Please cite our work as follows for any purpose of usage.
   month = {May}
 }
 ```
+## License
+
+- Code: [MIT License](LICENSE)
+- Text, figures, and non-code artifacts: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
