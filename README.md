@@ -16,18 +16,19 @@ Accepted at **IEEE Symposium on Security and Privacy (IEEE S&P), 2025**.
 Please cite our work as follows for any purpose of usage.
 
 ```bibtex
-@INPROCEEDINGS {ali2025understanding,
-author = { Ali, Mutahar and Arunasalam, Arjun and Farrukh, Habiba },
-booktitle = { 2025 IEEE Symposium on Security and Privacy (SP) },
-title = {{ Understanding Users' Security and Privacy Concerns and Attitudes Towards Conversational AI Platforms }},
-year = {2025},
-volume = {},
-ISSN = {2375-1207},
-pages = {298-316},
-keywords = {},
-doi = {10.1109/SP61157.2025.00241},
-url = {https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00241},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-month =May}
+@inproceedings{ali2025understanding,
+  author = { Ali, Mutahar and Arunasalam, Arjun and Farrukh, Habiba },
+  booktitle = { 2025 IEEE Symposium on Security and Privacy (SP) },
+  title = {{ Understanding Users' Security and Privacy Concerns and Attitudes Towards Conversational AI Platforms }},
+  year = {2025},
+  volume = {},
+  ISSN = {2375-1207},
+  pages = {298-316},
+  keywords = {},
+  doi = {10.1109/SP61157.2025.00241},
+  url = {https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00241},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+  month = {May}
+}
 ```
